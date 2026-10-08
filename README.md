@@ -2,7 +2,7 @@
 
 Object detection for African wildlife (buffalo, elephant, rhino, zebra). Two YOLO26 sizes were fine-tuned and compared on accuracy vs. speed, and the nano model, which matched the larger one's accuracy at about half the inference time, is served through a FastAPI endpoint that returns bounding boxes.
 
-![frontend](frontend.png)
+![frontend](docs/frontend.png)
 
 ## Why
 
