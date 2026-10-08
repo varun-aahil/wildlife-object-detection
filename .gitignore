@@ -1,0 +1,38 @@
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Uploads / Temp
+*.tmp
+*.temp
+
+# Environment variables
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# YOLO / ML specific
+runs/
+lada/
+weights/
+# Do not ignore .pt files if they are meant to be distributed, 
+# but usually large models might be ignored. We'll ignore generic logs.
+*.log
